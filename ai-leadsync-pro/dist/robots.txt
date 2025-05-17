@@ -1,0 +1,21 @@
+// Robots.txt file for AI LeadSync Pro website
+// This file provides instructions to web crawlers about which pages to crawl
+
+User-agent: *
+Allow: /
+
+# Important pages that should be prioritized by crawlers
+Allow: /features
+Allow: /pricing
+Allow: /about
+Allow: /contact
+Allow: /blog
+
+# Disallow admin and utility pages
+Disallow: /admin/
+Disallow: /login
+Disallow: /signup
+Disallow: /dashboard
+
+# Sitemap location
+Sitemap: https://aileadsyncpro.com/sitemap.xml
